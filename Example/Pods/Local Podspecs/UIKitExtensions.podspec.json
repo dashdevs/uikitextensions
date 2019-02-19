@@ -1,0 +1,29 @@
+{
+  "name": "UIKitExtensions",
+  "version": "0.1.0",
+  "summary": "Helpful set of homemade UIKit extensions",
+  "homepage": "http://dashdevs.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dashdevs llc": "hello@dashdevs.com"
+  },
+  "source": {
+    "git": "https://github.com/kirill.u@itomy.ch/UIKitExtensions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "UIKitExtensions/**/*",
+  "frameworks": "UIKit",
+  "swift_version": "4.2",
+  "subspecs": [
+    {
+      "name": "UIColor",
+      "source_files": "UIKitExtensions/**/*"
+    }
+  ]
+}

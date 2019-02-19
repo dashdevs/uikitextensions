@@ -1,0 +1,16 @@
+PODS:
+  - UIKitExtensions/UIColor (0.1.0)
+
+DEPENDENCIES:
+  - UIKitExtensions/UIColor (from `../`)
+
+EXTERNAL SOURCES:
+  UIKitExtensions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIKitExtensions: 385ab27c1b2081510eabfbd0e40c41312fdcb9ed
+
+PODFILE CHECKSUM: 8b39ee3b0420b7a9526fdb3bf0eee6c612330acf
+
+COCOAPODS: 1.5.3

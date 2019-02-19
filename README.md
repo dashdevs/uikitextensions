@@ -1,10 +1,5 @@
 # UIKitExtensions
 
-[![CI Status](https://img.shields.io/travis/kirill.u@itomy.ch/UIKitExtensions.svg?style=flat)](https://travis-ci.org/kirill.u@itomy.ch/UIKitExtensions)
-[![Version](https://img.shields.io/cocoapods/v/UIKitExtensions.svg?style=flat)](https://cocoapods.org/pods/UIKitExtensions)
-[![License](https://img.shields.io/cocoapods/l/UIKitExtensions.svg?style=flat)](https://cocoapods.org/pods/UIKitExtensions)
-[![Platform](https://img.shields.io/cocoapods/p/UIKitExtensions.svg?style=flat)](https://cocoapods.org/pods/UIKitExtensions)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -22,7 +17,7 @@ pod 'UIKitExtensions'
 
 ## Author
 
-kirill.u@itomy.ch, kirill.u@itomy.ch
+DashDevs hello@dashdevs.com
 
 ## License
 
