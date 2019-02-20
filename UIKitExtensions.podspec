@@ -20,6 +20,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'UIKitExtensions/**/*'
   
+  s.preserve_paths = 'UIKitExtensions/**/*'
+  
   s.frameworks = 'UIKit'
   s.swift_version   = '4.2'
 
