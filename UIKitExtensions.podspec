@@ -18,10 +18,16 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'UIKitExtensions/UIKitExtensions.h'
-  
+  s.source_files = 'UIKitExtensions/*.{h,m,swift}'
+
   s.frameworks = 'UIKit'
   s.swift_version = '4.2'
+  
+  s.default_subspec = 'Core'
+
+  s.subspec 'Core' do |ss|
+      ss.source_files = 'UIKitExtensions/*.{h,m,swift}'
+  end
 
   s.subspec 'UIColor' do |ss|
     ss.source_files = 'UIKitExtensions/UIColor+DDExtensions.{h,m}'

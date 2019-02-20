@@ -19,15 +19,14 @@ PODS:
 
 DEPENDENCIES:
   - UIKitExtensions (from `../`)
-  - UIKitExtensions/UIColor (from `../`)
 
 EXTERNAL SOURCES:
   UIKitExtensions:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UIKitExtensions: a226235a58f2589e93a8f03bbbade8401864eff1
+  UIKitExtensions: 6b49e22b4083f948abe326758f2923235970a71a
 
-PODFILE CHECKSUM: 911f03ed188fe4a01a3c5ed60760d680d406275c
+PODFILE CHECKSUM: d912dfb7eb57d3c8d53ed4c8b820d9a269ecf6c9
 
 COCOAPODS: 1.5.3
