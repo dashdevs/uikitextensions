@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'UIKitExtensions/**/*'
+  s.source_files = 'UIKitExtensions/UIKitExtensions.h'
   
   s.frameworks = 'UIKit'
   s.swift_version = '4.2'

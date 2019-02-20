@@ -1,21 +1,21 @@
 PODS:
-  - UIKitExtensions (0.4.0):
-    - UIKitExtensions/UIColor (= 0.4.0)
-    - UIKitExtensions/UIImage (= 0.4.0)
-    - UIKitExtensions/UINavigationController (= 0.4.0)
-    - UIKitExtensions/UIScreen (= 0.4.0)
-    - UIKitExtensions/UITableView (= 0.4.0)
-    - UIKitExtensions/UIView (= 0.4.0)
-    - UIKitExtensions/UIViewController (= 0.4.0)
-    - UIKitExtensions/UIWebView (= 0.4.0)
-  - UIKitExtensions/UIColor (0.4.0)
-  - UIKitExtensions/UIImage (0.4.0)
-  - UIKitExtensions/UINavigationController (0.4.0)
-  - UIKitExtensions/UIScreen (0.4.0)
-  - UIKitExtensions/UITableView (0.4.0)
-  - UIKitExtensions/UIView (0.4.0)
-  - UIKitExtensions/UIViewController (0.4.0)
-  - UIKitExtensions/UIWebView (0.4.0)
+  - UIKitExtensions (0.5.0):
+    - UIKitExtensions/UIColor (= 0.5.0)
+    - UIKitExtensions/UIImage (= 0.5.0)
+    - UIKitExtensions/UINavigationController (= 0.5.0)
+    - UIKitExtensions/UIScreen (= 0.5.0)
+    - UIKitExtensions/UITableView (= 0.5.0)
+    - UIKitExtensions/UIView (= 0.5.0)
+    - UIKitExtensions/UIViewController (= 0.5.0)
+    - UIKitExtensions/UIWebView (= 0.5.0)
+  - UIKitExtensions/UIColor (0.5.0)
+  - UIKitExtensions/UIImage (0.5.0)
+  - UIKitExtensions/UINavigationController (0.5.0)
+  - UIKitExtensions/UIScreen (0.5.0)
+  - UIKitExtensions/UITableView (0.5.0)
+  - UIKitExtensions/UIView (0.5.0)
+  - UIKitExtensions/UIViewController (0.5.0)
+  - UIKitExtensions/UIWebView (0.5.0)
 
 DEPENDENCIES:
   - UIKitExtensions (from `../`)
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UIKitExtensions: b731468762c01691301ef395223b9db7ca9c0024
+  UIKitExtensions: a226235a58f2589e93a8f03bbbade8401864eff1
 
 PODFILE CHECKSUM: 911f03ed188fe4a01a3c5ed60760d680d406275c
 
