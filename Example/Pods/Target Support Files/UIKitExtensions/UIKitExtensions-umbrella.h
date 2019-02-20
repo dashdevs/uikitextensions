@@ -10,14 +10,7 @@
 #endif
 #endif
 
-#import "CALayer+DDImage.h"
-#import "UIColor+DDRepresentation.h"
-#import "UIImage+DDTransformation.h"
-#import "UINavigationController+DDNavigation.h"
-#import "UITableView+DDSelection.h"
-#import "UIView+DDNibLoading.h"
-#import "UIView+DDVisuals.h"
-#import "UIWebView+DDJavaScriptContext.h"
+#import "UIColor+DDExtensions.h"
 
 FOUNDATION_EXPORT double UIKitExtensionsVersionNumber;
 FOUNDATION_EXPORT const unsigned char UIKitExtensionsVersionString[];

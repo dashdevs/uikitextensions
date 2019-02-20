@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIColor (DDRepresentation)
+@interface UIColor (DDExtensions)
 
 /**
  Creates UIImage with 1*1 size from current color. Convenient for styling controls like UIButton

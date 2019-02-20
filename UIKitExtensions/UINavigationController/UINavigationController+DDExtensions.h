@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UINavigationController (DDNavigation)
+@interface UINavigationController (DDExtensions)
 
 /**
  Returns topmost view controller in navigation stack. May return nil if no view controller in stack

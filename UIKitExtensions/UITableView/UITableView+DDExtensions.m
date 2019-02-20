@@ -5,9 +5,9 @@
 //  Copyright © 2018 dashdevs.com. All rights reserved.
 //
 
-#import "UITableView+DDSelection.h"
+#import "UITableView+DDExtensions.h"
 
-@implementation UITableView (DDSelection)
+@implementation UITableView (DDExtensions)
 
 - (void)dd_selectAllRowsAnimated:(BOOL)animated {
     for (NSInteger section = 0; section < self.numberOfSections; ++section) {

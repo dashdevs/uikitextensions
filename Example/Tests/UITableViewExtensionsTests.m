@@ -6,7 +6,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "UITableView+DDSelection.h"
+#import "UITableView+DDExtensions.h"
 
 @interface UITableViewExtensionsTests : XCTestCase <UITableViewDataSource>
 

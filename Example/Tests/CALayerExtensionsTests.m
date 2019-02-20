@@ -6,7 +6,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "CALayer+DDImage.h"
+#import "CALayer+DDExtensions.h"
 
 @interface CALayerExtensionsTests : XCTestCase
 

@@ -6,7 +6,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "UINavigationController+DDNavigation.h"
+#import "UINavigationController+DDExtensions.h"
 
 @interface UINavigationControllerExtensionsTests : XCTestCase
 

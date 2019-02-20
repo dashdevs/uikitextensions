@@ -1,13 +1,18 @@
 //
-//  UIView+DDVisuals.m
+//  UIView+DDNibLoading.m
 //  UIKitExtensions
 //
-//  Copyright © 2018 dashdevs.com. All rights reserved.
-//
 
-#import "UIView+DDVisuals.h"
+#import "UIView+DDExtensions.h"
 
-@implementation UIView (DDVisuals)
+@implementation UIView (DDExtensions)
+
++ (instancetype)dd_viewWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    NSBundle *bundle = (nibBundleOrNil) ?: [NSBundle mainBundle];
+    NSString *name = (nibNameOrNil) ?: NSStringFromClass(self);
+    UIView *view = [[bundle loadNibNamed:name owner:self options:nil] firstObject];
+    return view;
+}
 
 - (UIImageView *)dd_hairlineImageView {
     if ([self isKindOfClass:[UIImageView class]]) {

@@ -5,9 +5,9 @@
 //  Copyright © 2018 dashdevs.com. All rights reserved.
 //
 
-#import "UIColor+DDRepresentation.h"
+#import "UIColor+DDExtensions.h"
 
-@implementation UIColor (DDRepresentation)
+@implementation UIColor (DDExtensions)
 
 - (nullable UIImage *)dd_pointImage {
     CGSize pointSize = CGSizeMake(1.0f, 1.0f);

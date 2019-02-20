@@ -5,9 +5,9 @@
 //  Copyright © 2018 dashdevs.com. All rights reserved.
 //
 
-#import "UIImage+DDTransformation.h"
+#import "UIImage+DDExtensions.h"
 
-@implementation UIImage (DDTransformation)
+@implementation UIImage (DDExtensions)
 
 - (UIImage *)dd_resize:(CGSize)size {
     UIGraphicsBeginImageContextWithOptions(size, NO, 0.0);

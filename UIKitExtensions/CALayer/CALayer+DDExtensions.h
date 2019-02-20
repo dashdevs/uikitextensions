@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CALayer (DDImage)
+@interface CALayer (DDExtensions)
 
 /**
  Creates UIImage from current layer. May be nil

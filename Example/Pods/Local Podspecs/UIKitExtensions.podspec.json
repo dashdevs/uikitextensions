@@ -1,6 +1,6 @@
 {
   "name": "UIKitExtensions",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "Helpful set of homemade UIKit extensions",
   "homepage": "http://dashdevs.com",
   "license": {
@@ -11,8 +11,8 @@
     "dashdevs llc": "hello@dashdevs.com"
   },
   "source": {
-    "git": "https://github.com/kirill.u@itomy.ch/UIKitExtensions.git",
-    "tag": "0.1.0"
+    "git": "https://bitbucket.org/itomych/uikitextensions.git",
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -23,7 +23,35 @@
   "subspecs": [
     {
       "name": "UIColor",
-      "source_files": "UIKitExtensions/**/*"
+      "source_files": "UIKitExtensions/UIColor/UIColor+DDExtensions.{h,m}"
+    },
+    {
+      "name": "UIImage",
+      "source_files": "UIKitExtensions/UIImage/UIImage+DDExtensions.{h,m}"
+    },
+    {
+      "name": "UINavigationController",
+      "source_files": "UIKitExtensions/UINavigationController/UINavigationController+DDExtensions.{h,m}"
+    },
+    {
+      "name": "UIScreen",
+      "source_files": "UIKitExtensions/UIScreen/UIScreen+DDExtensions.swift"
+    },
+    {
+      "name": "UITableView",
+      "source_files": "UIKitExtensions/UITableView/UITableView+DDExtensions.{h,m}"
+    },
+    {
+      "name": "UIView",
+      "source_files": "UIKitExtensions/UIView/UIView+DDExtensions.{h,m}"
+    },
+    {
+      "name": "UIWebView",
+      "source_files": "UIKitExtensions/UIWebView/UIWebView+DDExtensions.{h,m}"
+    },
+    {
+      "name": "UIViewController",
+      "source_files": "UIKitExtensions/UIViewController/UIViewController+DDExtensions.swift"
     }
   ]
 }

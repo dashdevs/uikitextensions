@@ -7,7 +7,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIView (DDNibLoading)
+@interface UIView (DDExtensions)
 
 /**
  Loads view from specified nib containing in specified bundle
@@ -17,6 +17,14 @@ NS_ASSUME_NONNULL_BEGIN
  @return A newly initialized UIView object
  */
 + (nonnull instancetype)dd_viewWithNibName:(nullable NSString *)nibNameOrNil bundle:(nullable NSBundle *)nibBundleOrNil;
+
+/**
+ Returns less than or equal 1 point height view. Convenient for finding shadow views in controls like UINavigationBar
+ 
+ @return View with less or equal 1 point height
+ */
+- (nullable UIImageView *)dd_hairlineImageView;
+
 
 @end
 

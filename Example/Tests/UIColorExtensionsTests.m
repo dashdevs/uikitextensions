@@ -6,7 +6,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "UIColor+DDRepresentation.h"
+#import "UIColor+DDExtensions.h"
 
 @interface UIColorExtensionsTests : XCTestCase
 

@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIImage (DDTransformation)
+@interface UIImage (DDExtensions)
 
 /**
  Creates new resized image from current image

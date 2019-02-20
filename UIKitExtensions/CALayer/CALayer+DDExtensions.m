@@ -5,9 +5,9 @@
 //  Copyright © 2018 dashdevs.com. All rights reserved.
 //
 
-#import "CALayer+DDImage.h"
+#import "CALayer+DDExtensions.h"
 
-@implementation CALayer (DDImage)
+@implementation CALayer (DDExtensions)
 
 - (nullable UIImage *)dd_image {
     UIGraphicsBeginImageContextWithOptions(self.bounds.size, self.isOpaque, 0.0);

@@ -5,7 +5,7 @@
 //  Copyright © 2018 dashdevs.com. All rights reserved.
 //
 
-#import "UIWebView+DDJavaScriptContext.h"
+#import "UIWebView+DDExtensions.h"
 
 static NSString *kJavaScriptContextKeyPath = @"documentView.webView.mainFrame.javaScriptContext";
 

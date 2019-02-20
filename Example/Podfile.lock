@@ -1,5 +1,5 @@
 PODS:
-  - UIKitExtensions/UIColor (0.1.0)
+  - UIKitExtensions/UIColor (0.3.0)
 
 DEPENDENCIES:
   - UIKitExtensions/UIColor (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UIKitExtensions: 385ab27c1b2081510eabfbd0e40c41312fdcb9ed
+  UIKitExtensions: b80528a26cc0978686fa05a6dbf760ebc7be794b
 
 PODFILE CHECKSUM: 8b39ee3b0420b7a9526fdb3bf0eee6c612330acf
 

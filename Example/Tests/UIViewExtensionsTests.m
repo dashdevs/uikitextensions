@@ -6,8 +6,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "UIView+DDVisuals.h"
-#import "UIView+DDNibLoading.h"
+#import "UIView+DDExtensions.h"
 
 @interface UIViewExtensionsTests : XCTestCase
 

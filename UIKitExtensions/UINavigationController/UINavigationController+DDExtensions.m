@@ -5,9 +5,9 @@
 //  Copyright © 2018 dashdevs.com. All rights reserved.
 //
 
-#import "UINavigationController+DDNavigation.h"
+#import "UINavigationController+DDExtensions.h"
 
-@implementation UINavigationController (DDNavigation)
+@implementation UINavigationController (DDExtensions)
 
 - (UIViewController *)dd_rootViewController {
     return self.viewControllers.firstObject;

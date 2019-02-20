@@ -6,7 +6,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <UIKitExtensions/UIImage+DDTransformation.h>
+#import "UIImage+DDExtensions.h"
 
 @interface UIImageExtensionTests : XCTestCase
 

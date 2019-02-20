@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UITableView (DDSelection)
+@interface UITableView (DDExtensions)
 
 /**
  Allows to select all rows in table

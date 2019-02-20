@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIWebView (DDJavaScriptContext)
+@interface UIWebView (DDExtensions)
 
 /**
  Allows to inject block to as JavaScript function

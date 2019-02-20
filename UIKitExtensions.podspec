@@ -20,41 +20,39 @@ Pod::Spec.new do |s|
 
   s.source_files = 'UIKitExtensions/**/*'
   
-  s.preserve_paths = 'UIKitExtensions/**/*'
-  
   s.frameworks = 'UIKit'
-  s.swift_version   = '4.2'
+  s.swift_version = '4.2'
 
   s.subspec 'UIColor' do |ss|
-    ss.source_files = 'UIKitExtensions/UIColor/**/*'
+    ss.source_files = 'UIKitExtensions/UIColor/UIColor+DDExtensions.{h,m}'
   end
 
   s.subspec 'UIImage' do |ss|
-    ss.source_files = 'UIKitExtensions/UIImage/**/*'
+    ss.source_files = 'UIKitExtensions/UIImage/UIImage+DDExtensions.{h,m}'
   end
 
   s.subspec 'UINavigationController' do |ss|
-    ss.source_files = 'UIKitExtensions/UINavigationController/**/*'
+    ss.source_files = 'UIKitExtensions/UINavigationController/UINavigationController+DDExtensions.{h,m}'
   end
 
   s.subspec 'UIScreen' do |ss|
-    ss.source_files = 'UIKitExtensions/UIScreen/**/*'
+    ss.source_files = 'UIKitExtensions/UIScreen/UIScreen+DDExtensions.swift'
   end
 
   s.subspec 'UITableView' do |ss|
-    ss.source_files = 'UIKitExtensions/UITableView/**/*'
+    ss.source_files = 'UIKitExtensions/UITableView/UITableView+DDExtensions.{h,m}'
   end
 
   s.subspec 'UIView' do |ss|
-    ss.source_files = 'UIKitExtensions/UIView/**/*'
+    ss.source_files = 'UIKitExtensions/UIView/UIView+DDExtensions.{h,m}'
   end
 
   s.subspec 'UIWebView' do |ss|
-    ss.source_files = 'UIKitExtensions/UIWebView/**/*'
+    ss.source_files = 'UIKitExtensions/UIWebView/UIWebView+DDExtensions.{h,m}'
   end
 
   s.subspec 'UIViewController' do |ss|
-    ss.source_files = 'UIKitExtensions/UIViewController/**/*'
+    ss.source_files = 'UIKitExtensions/UIViewController/UIViewController+DDExtensions.swift'
   end
 
 end
