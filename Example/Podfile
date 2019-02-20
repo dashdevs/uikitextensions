@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'UIKitExtensions_Example' do
-#  pod 'UIKitExtensions', :path => '../'
+  pod 'UIKitExtensions', :path => '../'
 
   pod 'UIKitExtensions/UIColor', :path => '../'
 
