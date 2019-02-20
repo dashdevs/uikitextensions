@@ -13,7 +13,6 @@
 #import "CALayer+DDImage.h"
 #import "UIColor+DDRepresentation.h"
 #import "UIImage+DDTransformation.h"
-#import "UIKitExtensions.h"
 #import "UINavigationController+DDNavigation.h"
 #import "UITableView+DDSelection.h"
 #import "UIView+DDNibLoading.h"
