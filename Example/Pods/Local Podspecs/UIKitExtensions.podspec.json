@@ -1,6 +1,6 @@
 {
   "name": "UIKitExtensions",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "summary": "Helpful set of homemade UIKit extensions",
   "homepage": "http://dashdevs.com",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://bitbucket.org/itomych/uikitextensions.git",
-    "tag": "0.5.0"
+    "tag": "0.6.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -20,7 +20,12 @@
   "source_files": "UIKitExtensions/*.{h,m,swift}",
   "frameworks": "UIKit",
   "swift_version": "4.2",
+  "default_subspecs": "Core",
   "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "UIKitExtensions/*.{h,m,swift}"
+    },
     {
       "name": "UIColor",
       "source_files": "UIKitExtensions/UIColor+DDExtensions.{h,m}"
@@ -52,6 +57,10 @@
     {
       "name": "UIViewController",
       "source_files": "UIKitExtensions/UIViewController+DDExtensions.swift"
+    },
+    {
+      "name": "UITextField",
+      "source_files": "UIKitExtensions/UITextField+DDExtensions.{h,m}"
     }
   ]
 }

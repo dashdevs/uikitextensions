@@ -22,6 +22,7 @@
 		E848D986221CA03500B3AC1F /* imageWithRGB150.250.201.png in Resources */ = {isa = PBXBuildFile; fileRef = E848D97E221CA03400B3AC1F /* imageWithRGB150.250.201.png */; };
 		E848D987221CA03500B3AC1F /* CALayerExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E848D97F221CA03400B3AC1F /* CALayerExtensionsTests.m */; };
 		E848D988221CA03500B3AC1F /* UIViewExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E848D980221CA03500B3AC1F /* UIViewExtensionsTests.m */; };
+		E8FB64692228418F007930AF /* UITextFieldExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FB64682228418F007930AF /* UITextFieldExtensionsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		E848D97E221CA03400B3AC1F /* imageWithRGB150.250.201.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageWithRGB150.250.201.png; sourceTree = "<group>"; };
 		E848D97F221CA03400B3AC1F /* CALayerExtensionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerExtensionsTests.m; sourceTree = "<group>"; };
 		E848D980221CA03500B3AC1F /* UIViewExtensionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExtensionsTests.m; sourceTree = "<group>"; };
+		E8FB646222283A02007930AF /* TODO.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = TODO.md; path = ../TODO.md; sourceTree = "<group>"; };
+		E8FB64682228418F007930AF /* UITextFieldExtensionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextFieldExtensionsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,7 @@
 				E848D97B221CA03400B3AC1F /* UINavigationControllerExtensionsTests.m */,
 				E848D977221CA03400B3AC1F /* UITableViewExtensionsTests.m */,
 				E848D980221CA03500B3AC1F /* UIViewExtensionsTests.m */,
+				E8FB64682228418F007930AF /* UITextFieldExtensionsTests.m */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -167,6 +171,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				E8FB646222283A02007930AF /* TODO.md */,
 				D24C2632F6544A48C70E0964 /* UIKitExtensions.podspec */,
 				D66425F0FB833C5AEC854A55 /* README.md */,
 				0B2E87999FD7A880F0E8CC3B /* LICENSE */,
@@ -366,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8FB64692228418F007930AF /* UITextFieldExtensionsTests.m in Sources */,
 				E848D982221CA03500B3AC1F /* UIColorExtensionsTests.m in Sources */,
 				E848D984221CA03500B3AC1F /* UINavigationControllerExtensionsTests.m in Sources */,
 				E848D987221CA03500B3AC1F /* CALayerExtensionsTests.m in Sources */,

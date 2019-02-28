@@ -28,7 +28,7 @@
 - (UIImage *)testImage {
     NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"imageWithRGB150.250.201" ofType:@"png"];
     NSData *data = [NSData dataWithContentsOfFile:path];
-    return  [UIImage imageWithData:data];
+    return [UIImage imageWithData:data];
 }
 
 - (void)testdd_resize {
