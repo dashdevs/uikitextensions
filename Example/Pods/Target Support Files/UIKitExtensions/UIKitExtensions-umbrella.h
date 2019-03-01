@@ -26,6 +26,7 @@
 #import "UITextField+DDExtensions.h"
 #import "UIView+DDExtensions.h"
 #import "UIWebView+DDExtensions.h"
+#import "UIApplication+DDExtensions.h"
 
 FOUNDATION_EXPORT double UIKitExtensionsVersionNumber;
 FOUNDATION_EXPORT const unsigned char UIKitExtensionsVersionString[];
