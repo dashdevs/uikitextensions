@@ -32,6 +32,8 @@
 		E3390758CB3D9CD40A27F25BCA5B55D0 /* UIImage+DDExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CBFECA545DB2F6D9096E3366D78B79 /* UIImage+DDExtensions.m */; };
 		E53828F0785D9D6F58BE1A066EC2C36B /* UITextField+DDExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 53BACD7C0B44CB85337D4377998066C3 /* UITextField+DDExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7FB62A85AEA85FF83DDB17DB1DA9CD1 /* Pods-UIKitExtensions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F21BF12DA612E16CF1CF6FC07DE687FD /* Pods-UIKitExtensions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E82A50B42229870600CB7125 /* UIApplication+DDExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E82A50B22229870600CB7125 /* UIApplication+DDExtensions.m */; };
+		E82A50B52229870600CB7125 /* UIApplication+DDExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E82A50B32229870600CB7125 /* UIApplication+DDExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB6774318CB37B79DB6E1BBF567C1CC9 /* Pods-UIKitExtensions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A89F08B5897C34B2530ADF7B3A7471B /* Pods-UIKitExtensions_Example-dummy.m */; };
 		F92F2EA80D720AA5EA1DA903BD4D4894 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		FF22F3ACFB0FE29ED4089C69FD0AEFC9 /* UITextField+DDExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E773B7446A8A5C9DD71A1D502BBC7 /* UITextField+DDExtensions.m */; };
@@ -61,7 +63,7 @@
 		0AFB8F892647848D2820F2645E07D54D /* Pods-UIKitExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKitExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0DA66C5D5B3A28A37C097149F54CBC6F /* Pods-UIKitExtensions_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIKitExtensions_Example-resources.sh"; sourceTree = "<group>"; };
 		0DE02FD3D74532872B2C498349C28076 /* UINavigationController+DDExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+DDExtensions.h"; path = "UIKitExtensions/UINavigationController+DDExtensions.h"; sourceTree = "<group>"; };
-		0F12A33A5B9475DF8BA7C0B51ABB3B15 /* Pods_UIKitExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIKitExtensions_Tests.framework; path = "Pods-UIKitExtensions_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F12A33A5B9475DF8BA7C0B51ABB3B15 /* Pods_UIKitExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11147B6ABF829413BE5CC23C771DF765 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D4A63DE796C12045C7E16ABF63EC95C /* Pods-UIKitExtensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKitExtensions_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1EA603BB91220C932AE84DFFC092F4CF /* CALayer+DDExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+DDExtensions.h"; path = "UIKitExtensions/CALayer+DDExtensions.h"; sourceTree = "<group>"; };
@@ -77,18 +79,18 @@
 		53BACD7C0B44CB85337D4377998066C3 /* UITextField+DDExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+DDExtensions.h"; path = "UIKitExtensions/UITextField+DDExtensions.h"; sourceTree = "<group>"; };
 		54C4314FAD9E9E20AD2015E787045E3F /* Pods-UIKitExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIKitExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		55655A92D91F42AD117F6A15C3D20F9D /* UIKitExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIKitExtensions-prefix.pch"; sourceTree = "<group>"; };
-		59C4E8B29FE57D8FFC0DF8A93FC21C18 /* Pods_UIKitExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIKitExtensions_Example.framework; path = "Pods-UIKitExtensions_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C555B5B3188EE2077BF8B7C1B237FB5 /* UIKitExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = UIKitExtensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		59C4E8B29FE57D8FFC0DF8A93FC21C18 /* Pods_UIKitExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitExtensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C555B5B3188EE2077BF8B7C1B237FB5 /* UIKitExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = UIKitExtensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6AA3FCC2E27C1191934839A678A8903B /* Pods-UIKitExtensions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIKitExtensions_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6B1260A32A24B34334075B95F6A7FCDB /* CALayer+DDExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+DDExtensions.m"; path = "UIKitExtensions/CALayer+DDExtensions.m"; sourceTree = "<group>"; };
 		6B96D81E003FDDD141376B6FBC948F27 /* Pods-UIKitExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKitExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		73EE65442EF285AFFFD6B5056193B861 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		73EE65442EF285AFFFD6B5056193B861 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7404A46D39193B0FB18345EB3778E92B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C14683F57CDDB3061FB6C36CCF59E41 /* Pods-UIKitExtensions_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIKitExtensions_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		840A50703CD8FE306219161D6BAF312A /* Pods-UIKitExtensions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIKitExtensions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		855710DE272A00F52B0063F256319899 /* Pods-UIKitExtensions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIKitExtensions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96F72326876079E9BC34FC911664288F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3941DAA289608E7A4653DC1C029DD97 /* UIKitExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIKitExtensions.modulemap; sourceTree = "<group>"; };
 		A3FFFC42E7B77D243FF732226BDD994D /* UIViewController+DDExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+DDExtensions.swift"; path = "UIKitExtensions/UIViewController+DDExtensions.swift"; sourceTree = "<group>"; };
@@ -96,7 +98,7 @@
 		AD51CAAAE2FE1ADEB7339F4A5C27A666 /* UIScreen+DDExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+DDExtensions.swift"; path = "UIKitExtensions/UIScreen+DDExtensions.swift"; sourceTree = "<group>"; };
 		AE8604EB0DB590ACA2D7F652D1855FA5 /* UITableView+DDExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+DDExtensions.m"; path = "UIKitExtensions/UITableView+DDExtensions.m"; sourceTree = "<group>"; };
 		B29CCC0A2B332256CD27A64DBEB02F9A /* UIView+DDExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DDExtensions.h"; path = "UIKitExtensions/UIView+DDExtensions.h"; sourceTree = "<group>"; };
-		B2F970CC530198943D9CC410640A12CF /* UIKitExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIKitExtensions.framework; path = UIKitExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F970CC530198943D9CC410640A12CF /* UIKitExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKitExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55E0B16E9EF28A311859ACB4A581DD7 /* UIKitExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIKitExtensions-dummy.m"; sourceTree = "<group>"; };
 		B99513BD86F6341218CDC9A3760C54DF /* UIColor+DDExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+DDExtensions.h"; path = "UIKitExtensions/UIColor+DDExtensions.h"; sourceTree = "<group>"; };
 		BA1C30E0147CF6D4A8C823B45542514C /* UIView+DDExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DDExtensions.m"; path = "UIKitExtensions/UIView+DDExtensions.m"; sourceTree = "<group>"; };
@@ -105,7 +107,9 @@
 		C9327CB2582BD4A2FAAB0AA280884AC8 /* Pods-UIKitExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIKitExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D23BA88EF3DD51B28C356A87696835F6 /* Pods-UIKitExtensions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIKitExtensions_Tests.modulemap"; sourceTree = "<group>"; };
 		D32F79054FACC58DD1872AC80588C19F /* Pods-UIKitExtensions_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIKitExtensions_Tests-resources.sh"; sourceTree = "<group>"; };
-		DCB611AB4770F08CFBC31AB4FE8B7374 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DCB611AB4770F08CFBC31AB4FE8B7374 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E82A50B22229870600CB7125 /* UIApplication+DDExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+DDExtensions.m"; path = "UIKitExtensions/UIApplication+DDExtensions.m"; sourceTree = "<group>"; };
+		E82A50B32229870600CB7125 /* UIApplication+DDExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+DDExtensions.h"; path = "UIKitExtensions/UIApplication+DDExtensions.h"; sourceTree = "<group>"; };
 		E857BCB37B1A95246396FDE612C977B7 /* UINavigationController+DDExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+DDExtensions.m"; path = "UIKitExtensions/UINavigationController+DDExtensions.m"; sourceTree = "<group>"; };
 		F21BF12DA612E16CF1CF6FC07DE687FD /* Pods-UIKitExtensions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIKitExtensions_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -194,6 +198,8 @@
 		6194F11EF881FC462C6FB370ADB1D394 /* UIKitExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				E82A50B32229870600CB7125 /* UIApplication+DDExtensions.h */,
+				E82A50B22229870600CB7125 /* UIApplication+DDExtensions.m */,
 				1EA603BB91220C932AE84DFFC092F4CF /* CALayer+DDExtensions.h */,
 				6B1260A32A24B34334075B95F6A7FCDB /* CALayer+DDExtensions.m */,
 				B99513BD86F6341218CDC9A3760C54DF /* UIColor+DDExtensions.h */,
@@ -303,6 +309,7 @@
 				791360107B7865937204F89151E36BDD /* UIKitExtensions-umbrella.h in Headers */,
 				D321674819B11B8494CC63F1EA4BCC63 /* UINavigationController+DDExtensions.h in Headers */,
 				26CFED593910A61B49BAF6B5EB145E7F /* UITableView+DDExtensions.h in Headers */,
+				E82A50B52229870600CB7125 /* UIApplication+DDExtensions.h in Headers */,
 				E53828F0785D9D6F58BE1A066EC2C36B /* UITextField+DDExtensions.h in Headers */,
 				AA2249948F53373EFBC3EB9B2F56DA27 /* UIView+DDExtensions.h in Headers */,
 				06CED78710AD19870B471A055CB5E669 /* UIWebView+DDExtensions.h in Headers */,
@@ -388,7 +395,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -422,6 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82A50B42229870600CB7125 /* UIApplication+DDExtensions.m in Sources */,
 				66CC5BB6125D27ED43D90C1E4ADDA9E0 /* CALayer+DDExtensions.m in Sources */,
 				90911E7FD8404CBB661B2A5687617986 /* UIColor+DDExtensions.m in Sources */,
 				E3390758CB3D9CD40A27F25BCA5B55D0 /* UIImage+DDExtensions.m in Sources */,
@@ -679,6 +687,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
