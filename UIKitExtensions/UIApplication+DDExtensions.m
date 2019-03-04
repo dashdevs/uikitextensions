@@ -18,25 +18,12 @@
             failure(URL);
         }];
     } else {
-        [self openURL: URL];
+        if ([self canOpenURL:URL]) {
+            [self openURL: URL];
+        } else {
+            failure(URL);
+        }
     }
-}
-
-- (void)dd_mailto:(NSString *)email {
-    NSURLComponents *components = [[NSURLComponents alloc] init];
-    components.host = @"co";
-    components.queryItems = @[ [NSURLQueryItem queryItemWithName:@"to" value:email] ];
-    
-    components.scheme = @"inbox-gmail";
-    if ([self openURL:components.URL]) {
-        return;
-    }
-    components.scheme = @"googlegmail";
-    if ([self openURL:components.URL]) {
-        return;
-    }
-    
-    [self openURL:[NSURL URLWithString:[@"mailto:" stringByAppendingString:email]]];
 }
 
 @end

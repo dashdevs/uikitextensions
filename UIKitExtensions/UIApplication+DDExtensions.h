@@ -17,13 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)dd_openUniversalLinkURL:(nonnull NSURL *)URL failureHandler:(nonnull void (^)(NSURL *URL))failure;
 
-/**
- If no standard mail client is setup, method tries to use google mail client to deliver email.
-
- @param email A NSString specifying the email address used to send this message
- */
-- (void)dd_mailto:(nonnull NSString *)email;
-
 @end
 
 NS_ASSUME_NONNULL_END
