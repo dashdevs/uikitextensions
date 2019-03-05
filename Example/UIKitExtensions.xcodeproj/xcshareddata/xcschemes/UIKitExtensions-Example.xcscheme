@@ -52,6 +52,16 @@
                ReferencedContainer = "container:UIKitExtensions.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E82A50B92229894900CB7125"
+               BuildableName = "UIKitExtensions_UITests.xctest"
+               BlueprintName = "UIKitExtensions_UITests"
+               ReferencedContainer = "container:UIKitExtensions.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
