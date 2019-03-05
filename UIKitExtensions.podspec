@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIKitExtensions'
-  s.version          = '0.7.0'
+  s.version          = '0.8.0'
   s.summary          = 'Helpful set of homemade UIKit extensions'
 
   s.homepage         = 'http://dashdevs.com'
@@ -64,5 +64,10 @@ Pod::Spec.new do |s|
   s.subspec 'UITextField' do |ss|
       ss.source_files = 'UIKitExtensions/UITextField+DDExtensions.{h,m}'
   end
+  
+  s.subspec 'UIApplication' do |ss|
+      ss.source_files = 'UIKitExtensions/UIApplication+DDExtensions.{h,m}'
+  end
+
 
 end
