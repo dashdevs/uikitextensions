@@ -28,6 +28,10 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |ss|
       ss.source_files = 'UIKitExtensions/*.{h,m,swift}'
   end
+  
+  s.subspec 'CGSize' do |ss|
+      ss.source_files = 'UIKitExtensions/CGSize+DDExtensions.{swift}'
+  end
 
   s.subspec 'UIColor' do |ss|
     ss.source_files = 'UIKitExtensions/UIColor+DDExtensions.{h,m}'
