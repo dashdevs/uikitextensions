@@ -9,7 +9,7 @@ import Foundation
 
 extension CGSize {
     /// Proportional relationship between width and height
-    var aspectRatio: CGFloat {
+    public var aspectRatio: CGFloat {
         return width / height
     }
     
@@ -19,7 +19,7 @@ extension CGSize {
     ///   - ratio: Aspect ratio, current value is used by default.
     ///   - newHeight: New height value.
     /// - Returns: Recalculated size.
-    func updateWithAspectRatio(_ ratio: CGFloat? = nil, newHeight: CGFloat) -> CGSize {
+    public func updateWithAspectRatio(_ ratio: CGFloat? = nil, newHeight: CGFloat) -> CGSize {
         let aspectRatio = ratio ?? self.aspectRatio
         let newWidth = newHeight * aspectRatio
         return CGSize(width: newWidth, height: newHeight)
@@ -31,7 +31,7 @@ extension CGSize {
     ///   - ratio: Aspect ratio, current value is used by default.
     ///   - newWidth: New width value.
     /// - Returns: Recalculated size.
-    func updateWithAspectRatio(_ ratio: CGFloat? = nil, newWidth: CGFloat) -> CGSize {
+    public func updateWithAspectRatio(_ ratio: CGFloat? = nil, newWidth: CGFloat) -> CGSize {
         let aspectRatio = ratio ?? self.aspectRatio
         let newHeight = newWidth / aspectRatio
         return CGSize(width: newWidth, height: newHeight)
