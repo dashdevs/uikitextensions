@@ -14,6 +14,7 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		78613E2C2236B8D70099EF79 /* CGSizeExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78613E2B2236B8D70099EF79 /* CGSizeExtensionsTests.swift */; };
 		E82A50BD2229894900CB7125 /* UIApplicationExtensionsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E82A50BC2229894900CB7125 /* UIApplicationExtensionsUITests.m */; };
 		E82A50C9222989EF00CB7125 /* Pods_UIKitExtensions_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82A50C8222989EF00CB7125 /* Pods_UIKitExtensions_Tests.framework */; };
 		E82A50CD22298B7300CB7125 /* OpenURLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82A50CC22298B7300CB7125 /* OpenURLViewController.swift */; };
@@ -60,10 +61,13 @@
 		607FACE51AFB9204008FA782 /* UIKitExtensions_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitExtensions_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68E730445330CD99F7E005CE /* Pods_UIKitExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitExtensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78613E2B2236B8D70099EF79 /* CGSizeExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSizeExtensionsTests.swift; sourceTree = "<group>"; };
 		8254D4328281598E52E2C086 /* Pods-UIKitExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitExtensions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIKitExtensions_Tests/Pods-UIKitExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0459FFE03432B510847B542 /* Pods-UIKitExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitExtensions_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIKitExtensions_Example/Pods-UIKitExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D24C2632F6544A48C70E0964 /* UIKitExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIKitExtensions.podspec; path = ../UIKitExtensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D66425F0FB833C5AEC854A55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E82A01622237BEC400041605 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
+		E82A01632237BF0200041605 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
 		E82A50BA2229894900CB7125 /* UIKitExtensions_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitExtensions_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82A50BC2229894900CB7125 /* UIApplicationExtensionsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIApplicationExtensionsUITests.m; sourceTree = "<group>"; };
 		E82A50BE2229894900CB7125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -176,6 +180,7 @@
 				E848D97C221CA03400B3AC1F /* Resources */,
 				E848D979221CA03400B3AC1F /* UIKitExtensions_Tests-Bridging-Header.h */,
 				E848D97F221CA03400B3AC1F /* CALayerExtensionsTests.m */,
+				78613E2B2236B8D70099EF79 /* CGSizeExtensionsTests.swift */,
 				E848D978221CA03400B3AC1F /* UIColorExtensionsTests.m */,
 				E848D97A221CA03400B3AC1F /* UIImageExtensionTests.m */,
 				E848D97B221CA03400B3AC1F /* UINavigationControllerExtensionsTests.m */,
@@ -199,6 +204,8 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				E82A01632237BF0200041605 /* CONTRIBUTING.md */,
+				E82A01622237BEC400041605 /* CHANGELOG.md */,
 				E8FB646222283A02007930AF /* TODO.md */,
 				D24C2632F6544A48C70E0964 /* UIKitExtensions.podspec */,
 				D66425F0FB833C5AEC854A55 /* README.md */,
@@ -452,6 +459,7 @@
 				E848D987221CA03500B3AC1F /* CALayerExtensionsTests.m in Sources */,
 				E848D988221CA03500B3AC1F /* UIViewExtensionsTests.m in Sources */,
 				E848D981221CA03500B3AC1F /* UITableViewExtensionsTests.m in Sources */,
+				78613E2C2236B8D70099EF79 /* CGSizeExtensionsTests.swift in Sources */,
 				E848D983221CA03500B3AC1F /* UIImageExtensionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
