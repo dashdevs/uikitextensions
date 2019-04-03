@@ -8,7 +8,7 @@
 import Foundation
 
 /// Storage for Sketch-style shadow parameters.
-struct SketchShadow {
+public struct SketchShadow {
     let color: UIColor
     let alpha: Float
     let x: CGFloat
@@ -26,7 +26,7 @@ struct SketchShadow {
     }
 }
 
-extension CALayer {
+public extension CALayer {
     
     /// Applies a shadow, specified in Sketch style.
     ///
