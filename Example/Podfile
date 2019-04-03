@@ -6,6 +6,6 @@ target 'UIKitExtensions_Example' do
   target 'UIKitExtensions_Tests' do
     inherit! :search_paths
 
-    
+
   end
 end

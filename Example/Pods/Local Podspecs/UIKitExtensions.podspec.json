@@ -1,6 +1,6 @@
 {
   "name": "UIKitExtensions",
-  "version": "0.6.0",
+  "version": "0.9.0",
   "summary": "Helpful set of homemade UIKit extensions",
   "homepage": "http://dashdevs.com",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://bitbucket.org/itomych/uikitextensions.git",
-    "tag": "0.6.0"
+    "tag": "0.9.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -27,6 +27,10 @@
       "source_files": "UIKitExtensions/*.{h,m,swift}"
     },
     {
+      "name": "CGSize",
+      "source_files": "UIKitExtensions/CGSize+DDExtensions.{swift}"
+    },
+    {
       "name": "UIColor",
       "source_files": "UIKitExtensions/UIColor+DDExtensions.{h,m}"
     },
@@ -37,10 +41,6 @@
     {
       "name": "UINavigationController",
       "source_files": "UIKitExtensions/UINavigationController+DDExtensions.{h,m}"
-    },
-    {
-      "name": "UIScreen",
-      "source_files": "UIKitExtensions/UIScreen+DDExtensions.swift"
     },
     {
       "name": "UITableView",
@@ -61,6 +61,18 @@
     {
       "name": "UITextField",
       "source_files": "UIKitExtensions/UITextField+DDExtensions.{h,m}"
+    },
+    {
+      "name": "UIApplication",
+      "source_files": "UIKitExtensions/UIApplication+DDExtensions.{h,m}"
+    },
+    {
+      "name": "UIKit+Sketch",
+      "source_files": [
+        "UIKitExtensions/CALayer+DDExtensions.swift",
+        "UIKitExtensions/NSAttributedString+DDExtensions.swift",
+        "UIKitExtensions/UIScreen+DDExtensions.swift"
+      ]
     }
   ]
 }
