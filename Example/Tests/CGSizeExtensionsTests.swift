@@ -6,7 +6,7 @@
 //
 
 import XCTest
-import UIKitExtensions
+@testable import UIKitExtensions
 
 class CGSizeExtensionsTests: XCTestCase {
 
