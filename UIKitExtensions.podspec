@@ -22,13 +22,13 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'UIKit'
   s.swift_version = '4.2'
-  
+
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |ss|
       ss.source_files = 'UIKitExtensions/*.{h,m,swift}'
   end
-  
+
   s.subspec 'CGSize' do |ss|
       ss.source_files = 'UIKitExtensions/CGSize+DDExtensions.{swift}'
   end
@@ -43,10 +43,6 @@ Pod::Spec.new do |s|
 
   s.subspec 'UINavigationController' do |ss|
     ss.source_files = 'UIKitExtensions/UINavigationController+DDExtensions.{h,m}'
-  end
-
-  s.subspec 'UIScreen' do |ss|
-    ss.source_files = 'UIKitExtensions/UIScreen+DDExtensions.swift'
   end
 
   s.subspec 'UITableView' do |ss|
@@ -68,10 +64,12 @@ Pod::Spec.new do |s|
   s.subspec 'UITextField' do |ss|
       ss.source_files = 'UIKitExtensions/UITextField+DDExtensions.{h,m}'
   end
-  
+
   s.subspec 'UIApplication' do |ss|
       ss.source_files = 'UIKitExtensions/UIApplication+DDExtensions.{h,m}'
   end
 
-
+  s.subspec 'UIKit+Sketch' do |ss|
+    ss.source_files = 'UIKitExtensions/UIKit+Sketch/*.swift'
+  end
 end

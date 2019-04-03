@@ -1,5 +1,5 @@
 //
-//  UIScreen+RelativeDimensions.swift
+//  UIScreen+DDExtensions.swift
 //  UIKitExtensions
 //
 //  Copyright © 2019 dashdevs.com. All rights reserved.
