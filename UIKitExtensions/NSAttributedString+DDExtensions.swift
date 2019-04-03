@@ -7,9 +7,9 @@
 
 import Foundation
 
-typealias StringAttributes = [NSAttributedStringKey: Any]
+typealias StringAttributes = [NSAttributedString.Key: Any]
 
-extension Dictionary where Key == NSAttributedStringKey, Value == Any {
+extension Dictionary where Key == NSAttributedString.Key, Value == Any {
     
     /// Constructs a native string attributes dictionary from CSS text parameters.
     ///

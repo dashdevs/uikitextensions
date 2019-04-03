@@ -70,6 +70,6 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UIKit+Sketch' do |ss|
-    ss.source_files = 'UIKitExtensions/UIKit+Sketch/*.swift'
+    ss.source_files = 'UIKitExtensions/CALayer+DDExtensions.swift', 'UIKitExtensions/NSAttributedString+DDExtensions.swift', 'UIKitExtensions/UIScreen+DDExtensions.swift'
   end
 end

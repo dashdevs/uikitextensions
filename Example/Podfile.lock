@@ -1,7 +1,7 @@
 PODS:
-  - UIKitExtensions (0.6.0):
-    - UIKitExtensions/Core (= 0.6.0)
-  - UIKitExtensions/Core (0.6.0)
+  - UIKitExtensions (0.9.0):
+    - UIKitExtensions/Core (= 0.9.0)
+  - UIKitExtensions/Core (0.9.0)
 
 DEPENDENCIES:
   - UIKitExtensions (from `../`)
@@ -11,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UIKitExtensions: a7cde955f3150862ad1b8b6ecf9b676898185d4c
+  UIKitExtensions: 675491b5442d12dead24eaa02cffc99fd4cc6cdc
 
-PODFILE CHECKSUM: d912dfb7eb57d3c8d53ed4c8b820d9a269ecf6c9
+PODFILE CHECKSUM: f5ac2579a79b49f44f573c44eedf0ed5862ee017
 
 COCOAPODS: 1.5.3
