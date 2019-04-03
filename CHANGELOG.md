@@ -1,3 +1,6 @@
+# 0.10.0
+* Added UIKit extensions for simplifying transferring UI from Sketch
+
 # 0.9.0
 * Added CGSize extension calculating aspect ratio and methods updating width/height respecting that ratio
 
