@@ -8,7 +8,7 @@
 import UIKit
 
 // MARK: - Adaptive layout: Provides relative dimensions and utilities for screen width & height
-@objc extension UIScreen {
+public extension UIScreen {
     
     // MARK: - Default screen dimensions, specified in design (iPhone 6)
     
@@ -103,5 +103,4 @@ import UIKit
         let relativeDimension = baseDimension * multiplier
         return limitedToMin ? max(baseDimension, relativeDimension) : relativeDimension
     }
-    
 }

@@ -29,7 +29,7 @@ public extension Dictionary where Key == NSAttributedString.Key, Value == Any {
     
     /// Constructs a native string attributes dictionary.
     ///
-    /// - Parameters:w
+    /// - Parameters:
     ///   - font: Text font.
     ///   - lineSpacing: Paragraph line spacing.
     ///   - color: Text color.

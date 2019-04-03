@@ -16,6 +16,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		782A34007C0C5DD08682ABE2 /* Pods_UIKitExtensions_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82A50C8222989EF00CB7125 /* Pods_UIKitExtensions_Tests.framework */; };
+		7848ECE92254F1CE0073FFAD /* UIScreenExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7848ECE82254F1CE0073FFAD /* UIScreenExtensionsTests.swift */; };
 		7852FBB32254E0E400424B2F /* CALayerExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7852FBB22254E0E400424B2F /* CALayerExtensionTests.swift */; };
 		7852FBB52254E7BC00424B2F /* NSAttributedStringExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7852FBB42254E7BC00424B2F /* NSAttributedStringExtensionsTests.swift */; };
 		78613E2C2236B8D70099EF79 /* CGSizeExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78613E2B2236B8D70099EF79 /* CGSizeExtensionsTests.swift */; };
@@ -64,6 +65,7 @@
 		607FACE51AFB9204008FA782 /* UIKitExtensions_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitExtensions_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68E730445330CD99F7E005CE /* Pods_UIKitExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitExtensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7848ECE82254F1CE0073FFAD /* UIScreenExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenExtensionsTests.swift; sourceTree = "<group>"; };
 		7852FBB22254E0E400424B2F /* CALayerExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerExtensionTests.swift; sourceTree = "<group>"; };
 		7852FBB42254E7BC00424B2F /* NSAttributedStringExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtensionsTests.swift; sourceTree = "<group>"; };
 		78613E2B2236B8D70099EF79 /* CGSizeExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSizeExtensionsTests.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				E848D97A221CA03400B3AC1F /* UIImageExtensionTests.m */,
 				E848D979221CA03400B3AC1F /* UIKitExtensions_Tests-Bridging-Header.h */,
 				E848D97B221CA03400B3AC1F /* UINavigationControllerExtensionsTests.m */,
+				7848ECE82254F1CE0073FFAD /* UIScreenExtensionsTests.swift */,
 				E848D977221CA03400B3AC1F /* UITableViewExtensionsTests.m */,
 				E8FB64682228418F007930AF /* UITextFieldExtensionsTests.m */,
 				E848D980221CA03500B3AC1F /* UIViewExtensionsTests.m */,
@@ -470,6 +473,7 @@
 				E848D982221CA03500B3AC1F /* UIColorExtensionsTests.m in Sources */,
 				E848D984221CA03500B3AC1F /* UINavigationControllerExtensionsTests.m in Sources */,
 				E848D987221CA03500B3AC1F /* CALayerExtensionsTests.m in Sources */,
+				7848ECE92254F1CE0073FFAD /* UIScreenExtensionsTests.swift in Sources */,
 				E848D988221CA03500B3AC1F /* UIViewExtensionsTests.m in Sources */,
 				7852FBB32254E0E400424B2F /* CALayerExtensionTests.swift in Sources */,
 				E848D981221CA03500B3AC1F /* UITableViewExtensionsTests.m in Sources */,
