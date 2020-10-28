@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'UIKitExtensions'
+  s.name             = 'DDUIKitExtensions'
   s.version          = '0.11.0'
   s.summary          = 'Helpful set of homemade UIKit extensions'
 
