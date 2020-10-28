@@ -8,13 +8,13 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIKitExtensions'
-  s.version          = '0.10.0'
+  s.version          = '0.11.0'
   s.summary          = 'Helpful set of homemade UIKit extensions'
 
   s.homepage         = 'http://dashdevs.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dashdevs llc' => 'hello@dashdevs.com' }
-  s.source           = { :git => 'https://bitbucket.org/itomych/uikitextensions.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/dashdevs/uikitextensions.git', :tag => s.version }
 
   s.ios.deployment_target = '9.0'
 
@@ -71,5 +71,9 @@ Pod::Spec.new do |s|
 
   s.subspec 'UIKit+Sketch' do |ss|
     ss.source_files = 'UIKitExtensions/CALayer+DDExtensions.swift', 'UIKitExtensions/NSAttributedString+DDExtensions.swift', 'UIKitExtensions/UIScreen+DDExtensions.swift'
+  end
+  
+  s.subspec 'PaddedLabel' do |ss|
+    ss.source_files = 'UIKitExtensions/PaddedLabel.swift'
   end
 end
