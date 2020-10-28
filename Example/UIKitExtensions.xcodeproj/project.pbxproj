@@ -71,7 +71,7 @@
 		78613E2B2236B8D70099EF79 /* CGSizeExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSizeExtensionsTests.swift; sourceTree = "<group>"; };
 		8254D4328281598E52E2C086 /* Pods-UIKitExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitExtensions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIKitExtensions_Tests/Pods-UIKitExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0459FFE03432B510847B542 /* Pods-UIKitExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitExtensions_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIKitExtensions_Example/Pods-UIKitExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D24C2632F6544A48C70E0964 /* UIKitExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIKitExtensions.podspec; path = ../UIKitExtensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D24C2632F6544A48C70E0964 /* DDUIKitExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DDUIKitExtensions.podspec; path = ../DDUIKitExtensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D66425F0FB833C5AEC854A55 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E82A01622237BEC400041605 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		E82A01632237BF0200041605 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
@@ -218,7 +218,7 @@
 				E82A01632237BF0200041605 /* CONTRIBUTING.md */,
 				E82A01622237BEC400041605 /* CHANGELOG.md */,
 				E8FB646222283A02007930AF /* TODO.md */,
-				D24C2632F6544A48C70E0964 /* UIKitExtensions.podspec */,
+				D24C2632F6544A48C70E0964 /* DDUIKitExtensions.podspec */,
 				D66425F0FB833C5AEC854A55 /* README.md */,
 				0B2E87999FD7A880F0E8CC3B /* LICENSE */,
 			);
