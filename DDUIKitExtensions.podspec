@@ -53,10 +53,6 @@ Pod::Spec.new do |s|
     ss.source_files = 'UIKitExtensions/UIView+DDExtensions.{h,m}'
   end
 
-  s.subspec 'UIWebView' do |ss|
-    ss.source_files = 'UIKitExtensions/UIWebView+DDExtensions.{h,m}'
-  end
-
   s.subspec 'UIViewController' do |ss|
     ss.source_files = 'UIKitExtensions/UIViewController+DDExtensions.swift'
   end
