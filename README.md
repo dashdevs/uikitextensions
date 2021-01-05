@@ -12,7 +12,24 @@ UIKitExtensions is available through [CocoaPods](https://cocoapods.org). To inst
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'DDUIKitExtensions'
+pod 'DDUIKitExtensions/{ExtensionName}'
+```
+where the {ExtensionName} is a name of extension you need to use. E.g. 'UIImage' for accessing image resizing method.
+
+You can pick one or multiple of the following extensions:
+
+```ruby
+pod 'DDUIKitExtensions/CGSize'
+pod 'DDUIKitExtensions/UIColor'
+pod 'DDUIKitExtensions/UIImage'
+pod 'DDUIKitExtensions/UINavigationController'
+pod 'DDUIKitExtensions/UITableView'
+pod 'DDUIKitExtensions/UIView'
+pod 'DDUIKitExtensions/UIViewController'
+pod 'DDUIKitExtensions/UITextField'
+pod 'DDUIKitExtensions/UIApplication'
+pod 'DDUIKitExtensions/UIKit+Sketch'
+pod 'DDUIKitExtensions/PaddedLabel'
 ```
 
 ## Author
