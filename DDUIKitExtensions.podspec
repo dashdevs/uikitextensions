@@ -17,20 +17,15 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/dashdevs/uikitextensions.git', :tag => s.version }
 
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'UIKitExtensions/*.{h,m,swift}'
+  s.ios.public_header_files = 'UIKitExtensions/*.h'
 
   s.frameworks = 'UIKit'
   s.swift_version = '4.2'
 
-  s.default_subspec = 'Core'
-
-  s.subspec 'Core' do |ss|
-      ss.source_files = 'UIKitExtensions/*.{h,m,swift}'
-  end
+  s.default_subspec = :none
 
   s.subspec 'CGSize' do |ss|
-      ss.source_files = 'UIKitExtensions/CGSize+DDExtensions.{swift}'
+    ss.source_files = 'UIKitExtensions/CGSize+DDExtensions.{swift}'
   end
 
   s.subspec 'UIColor' do |ss|
@@ -58,11 +53,11 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UITextField' do |ss|
-      ss.source_files = 'UIKitExtensions/UITextField+DDExtensions.{h,m}'
+    ss.source_files = 'UIKitExtensions/UITextField+DDExtensions.{h,m}'
   end
 
   s.subspec 'UIApplication' do |ss|
-      ss.source_files = 'UIKitExtensions/UIApplication+DDExtensions.{h,m}'
+    ss.source_files = 'UIKitExtensions/UIApplication+DDExtensions.{h,m}'
   end
 
   s.subspec 'UIKit+Sketch' do |ss|
