@@ -5,7 +5,7 @@
 //  Copyright © 2018 dashdevs.com. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 extension CGSize {
     /// Proportional relationship between width and height
