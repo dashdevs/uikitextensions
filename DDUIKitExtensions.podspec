@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UIColor' do |ss|
-    ss.source_files = 'UIKitExtensions/UIColor+DDExtensions.{h,m}'
+    ss.source_files = 'Sources/UIColorExtension/UIColor+DDExtensions.{swift}'
   end
 
   s.subspec 'UIImage' do |ss|
