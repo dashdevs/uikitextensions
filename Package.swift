@@ -9,15 +9,18 @@ let package = Package(
     products: [
         .library( name: "CGSizeExtension", targets: ["CGSizeExtension"]),
         .library( name: "UIColorExtension", targets: ["UIColorExtension"]),
+        .library( name: "UIImageExtension", targets: ["UIImageExtension"]),
     ],
     dependencies: [
     ],
     targets: [
         .target( name: "CGSizeExtension", dependencies: []),
         .target( name: "UIColorExtension", dependencies: []),
+        .target( name: "UIImageExtension", dependencies: []),
         
         .testTarget( name: "CGSizeExtensionTests", dependencies: ["CGSizeExtension"]),
         .testTarget( name: "UIColorExtensionTests", dependencies: ["UIColorExtension"]),
+        .testTarget( name: "UIImageExtensionTests", dependencies: ["UIImageExtension"]),
     ],
     swiftLanguageVersions: [.v5]
 )

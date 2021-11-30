@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UIImage' do |ss|
-    ss.source_files = 'UIKitExtensions/UIImage+DDExtensions.{h,m}'
+    ss.source_files = 'Sources/UIImageExtension/UIImage+DDExtensions.{swift}'
   end
 
   s.subspec 'UINavigationController' do |ss|
