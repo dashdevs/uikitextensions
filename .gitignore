@@ -1,6 +1,10 @@
 # OS X
 .DS_Store
 
+*/.build
+*/Packages
+*/.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
 # Xcode
 build/
 *.pbxuser
