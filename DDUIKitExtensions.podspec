@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DDUIKitExtensions'
-  s.version          = '0.11.1'
+  s.version          = '0.11.2'
   s.summary          = 'Helpful set of homemade UIKit extensions'
 
   s.homepage         = 'http://dashdevs.com'
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.default_subspec = :none
 
   s.subspec 'CGSize' do |ss|
-    ss.source_files = 'UIKitExtensions/CGSize+DDExtensions.{swift}'
+    ss.source_files = 'Sources/CGSizeExtension/CGSize+DDExtensions.{swift}'
   end
 
   s.subspec 'UIColor' do |ss|
