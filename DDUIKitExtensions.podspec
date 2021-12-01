@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UIView' do |ss|
-    ss.source_files = 'UIKitExtensions/UIView+DDExtensions.{h,m}'
+    ss.source_files = 'Sources/UIWiewExtensions/UIView+DDExtensions.{swift}'
   end
 
   s.subspec 'UIViewController' do |ss|
