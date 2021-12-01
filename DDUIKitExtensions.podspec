@@ -25,31 +25,31 @@ Pod::Spec.new do |s|
   s.default_subspec = :none
 
   s.subspec 'CGSize' do |ss|
-    ss.source_files = 'Sources/CGSizeExtension/CGSize+DDExtensions.{swift}'
+    ss.source_files = 'Sources/CGSizeExtension/CGSize+DDExtensions.swift'
   end
 
   s.subspec 'UIColor' do |ss|
-    ss.source_files = 'Sources/UIColorExtension/UIColor+DDExtensions.{swift}'
+    ss.source_files = 'Sources/UIColorExtension/UIColor+DDExtensions.swift'
   end
 
   s.subspec 'UIImage' do |ss|
-    ss.source_files = 'Sources/UIImageExtension/UIImage+DDExtensions.{swift}'
+    ss.source_files = 'Sources/UIImageExtension/UIImage+DDExtensions.swift'
   end
 
   s.subspec 'UINavigationController' do |ss|
-    ss.source_files = 'Sources/UINavigationControllerExtension/UINavigationController+DDExtensions.{swift}'
+    ss.source_files = 'Sources/UINavigationControllerExtension/UINavigationController+DDExtensions.swift'
   end
 
   s.subspec 'UITableView' do |ss|
-    ss.source_files = 'Sources/UITableViewExtensions/UITableView+DDExtensions.{swift}'
+    ss.source_files = 'Sources/UITableViewExtension/UITableView+DDExtensions.swift'
   end
 
   s.subspec 'UIView' do |ss|
-    ss.source_files = 'Sources/UIWiewExtensions/UIView+DDExtensions.{swift}'
+    ss.source_files = 'Sources/UIWiewExtension/UIView+DDExtensions.swift'
   end
 
   s.subspec 'UIViewController' do |ss|
-    ss.source_files = 'UIKitExtensions/UIViewController+DDExtensions.swift'
+    ss.source_files = 'Sources/UIViewControllerExtension/UIViewController+DDExtensions.swift'
   end
 
   s.subspec 'UITextField' do |ss|

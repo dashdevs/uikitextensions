@@ -12,6 +12,7 @@ let package = Package(
         .library( name: "UIImageExtension", targets: ["UIImageExtension"]),
         .library( name: "UINavigationControllerExtension", targets: ["UINavigationControllerExtension"]),
         .library( name: "UITableViewExtension", targets: ["UITableViewExtension"]),
+        .library( name: "UIViewControllerExtension", targets: ["UIViewControllerExtension"]),
         .library( name: "UIViewExtension", targets: ["UIViewExtension"]),
         
     ],
@@ -23,6 +24,7 @@ let package = Package(
         .target( name: "UIImageExtension", dependencies: []),
         .target( name: "UINavigationControllerExtension", dependencies: []),
         .target( name: "UITableViewExtension", dependencies: []),
+        .target( name: "UIViewControllerExtension", dependencies: []),
         .target( name: "UIViewExtension", dependencies: []),
         
         .testTarget( name: "CGSizeExtensionTests", dependencies: ["CGSizeExtension"]),
@@ -30,6 +32,7 @@ let package = Package(
         .testTarget( name: "UIImageExtensionTests", dependencies: ["UIImageExtension"]),
         .testTarget( name: "UINavigationControllerExtensionTests", dependencies: ["UINavigationControllerExtension"]),
         .testTarget( name: "UITableViewExtensionTests", dependencies: ["UITableViewExtension"]),
+        .testTarget( name: "UIViewControllerExtensionTests", dependencies: ["UIViewControllerExtension"]),
         .testTarget( name: "UIViewExtensionTests", dependencies: ["UIViewExtension"]),
         
     ],
