@@ -11,6 +11,7 @@ let package = Package(
         .library( name: "UIColorExtension", targets: ["UIColorExtension"]),
         .library( name: "UIImageExtension", targets: ["UIImageExtension"]),
         .library( name: "UINavigationControllerExtension", targets: ["UINavigationControllerExtension"]),
+        .library( name: "UITableViewExtension", targets: ["UITableViewExtension"]),
     ],
     dependencies: [
     ],
@@ -19,11 +20,13 @@ let package = Package(
         .target( name: "UIColorExtension", dependencies: []),
         .target( name: "UIImageExtension", dependencies: []),
         .target( name: "UINavigationControllerExtension", dependencies: []),
+        .target( name: "UITableViewExtension", dependencies: []),
         
         .testTarget( name: "CGSizeExtensionTests", dependencies: ["CGSizeExtension"]),
         .testTarget( name: "UIColorExtensionTests", dependencies: ["UIColorExtension"]),
         .testTarget( name: "UIImageExtensionTests", dependencies: ["UIImageExtension"]),
         .testTarget( name: "UINavigationControllerExtensionTests", dependencies: ["UINavigationControllerExtension"]),
+        .testTarget( name: "UITableViewExtensionTests", dependencies: ["UITableViewExtension"]),
     ],
     swiftLanguageVersions: [.v5]
 )

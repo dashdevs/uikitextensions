@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UITableView' do |ss|
-    ss.source_files = 'UIKitExtensions/UITableView+DDExtensions.{h,m}'
+    ss.source_files = 'Sources/UITableViewExtensions/UITableView+DDExtensions.{swift}'
   end
 
   s.subspec 'UIView' do |ss|
