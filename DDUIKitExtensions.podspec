@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UINavigationController' do |ss|
-    ss.source_files = 'UIKitExtensions/UINavigationController+DDExtensions.{h,m}'
+    ss.source_files = 'Sources/UINavigationControllerExtension/UINavigationController+DDExtensions.{swift}'
   end
 
   s.subspec 'UITableView' do |ss|
