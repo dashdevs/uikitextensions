@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DDUIKitExtensions'
-  s.version          = '0.11.1'
+  s.version          = '0.11.2'
   s.summary          = 'Helpful set of homemade UIKit extensions'
 
   s.homepage         = 'http://dashdevs.com'
@@ -25,46 +25,46 @@ Pod::Spec.new do |s|
   s.default_subspec = :none
 
   s.subspec 'CGSize' do |ss|
-    ss.source_files = 'UIKitExtensions/CGSize+DDExtensions.{swift}'
+    ss.source_files = 'Sources/CGSizeExtension/CGSize+DDExtensions.swift'
   end
 
   s.subspec 'UIColor' do |ss|
-    ss.source_files = 'UIKitExtensions/UIColor+DDExtensions.{h,m}'
+    ss.source_files = 'Sources/UIColorExtension/UIColor+DDExtensions.swift'
   end
 
   s.subspec 'UIImage' do |ss|
-    ss.source_files = 'UIKitExtensions/UIImage+DDExtensions.{h,m}'
+    ss.source_files = 'Sources/UIImageExtension/UIImage+DDExtensions.swift'
   end
 
   s.subspec 'UINavigationController' do |ss|
-    ss.source_files = 'UIKitExtensions/UINavigationController+DDExtensions.{h,m}'
+    ss.source_files = 'Sources/UINavigationControllerExtension/UINavigationController+DDExtensions.swift'
   end
 
   s.subspec 'UITableView' do |ss|
-    ss.source_files = 'UIKitExtensions/UITableView+DDExtensions.{h,m}'
+    ss.source_files = 'Sources/UITableViewExtension/UITableView+DDExtensions.swift'
   end
 
   s.subspec 'UIView' do |ss|
-    ss.source_files = 'UIKitExtensions/UIView+DDExtensions.{h,m}'
+    ss.source_files = 'Sources/UIWiewExtension/UIView+DDExtensions.swift'
   end
 
   s.subspec 'UIViewController' do |ss|
-    ss.source_files = 'UIKitExtensions/UIViewController+DDExtensions.swift'
+    ss.source_files = 'Sources/UIViewControllerExtension/UIViewController+DDExtensions.swift'
   end
 
   s.subspec 'UITextField' do |ss|
-    ss.source_files = 'UIKitExtensions/UITextField+DDExtensions.{h,m}'
+    ss.source_files = 'Sources/UITextFieldExtension/UITextField+DDExtensions.swift'
   end
 
   s.subspec 'UIApplication' do |ss|
-    ss.source_files = 'UIKitExtensions/UIApplication+DDExtensions.{h,m}'
+    ss.source_files = 'Sources/UIApplicationExtension/UIApplication+DDExtensions.swift'
   end
 
   s.subspec 'UIKit+Sketch' do |ss|
-    ss.source_files = 'UIKitExtensions/CALayer+DDExtensions.swift', 'UIKitExtensions/NSAttributedString+DDExtensions.swift', 'UIKitExtensions/UIScreen+DDExtensions.swift'
+    ss.source_files = 'Sources/UIKitSketchExtension/CALayer+DDExtensions.swift', 'UIKitExtensions/NSAttributedString+DDExtensions.swift', 'UIKitExtensions/UIScreen+DDExtensions.swift'
   end
   
   s.subspec 'PaddedLabel' do |ss|
-    ss.source_files = 'UIKitExtensions/PaddedLabel.swift'
+    ss.source_files = 'Sources/PaddedLabelExtension/PaddedLabel.swift'
   end
 end
