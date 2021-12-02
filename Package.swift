@@ -14,6 +14,7 @@ let package = Package(
         .library( name: "UITableViewExtension", targets: ["UITableViewExtension"]),
         .library( name: "UIViewControllerExtension", targets: ["UIViewControllerExtension"]),
         .library( name: "UIViewExtension", targets: ["UIViewExtension"]),
+        .library( name: "UITextFieldExtension", targets: ["UITextFieldExtension"]),
         
     ],
     dependencies: [
@@ -26,6 +27,7 @@ let package = Package(
         .target( name: "UITableViewExtension", dependencies: []),
         .target( name: "UIViewControllerExtension", dependencies: []),
         .target( name: "UIViewExtension", dependencies: []),
+        .target( name: "UITextFieldExtension", dependencies: []),
         
         .testTarget( name: "CGSizeExtensionTests", dependencies: ["CGSizeExtension"]),
         .testTarget( name: "UIColorExtensionTests", dependencies: ["UIColorExtension"]),
@@ -34,6 +36,7 @@ let package = Package(
         .testTarget( name: "UITableViewExtensionTests", dependencies: ["UITableViewExtension"]),
         .testTarget( name: "UIViewControllerExtensionTests", dependencies: ["UIViewControllerExtension"]),
         .testTarget( name: "UIViewExtensionTests", dependencies: ["UIViewExtension"]),
+        .testTarget( name: "UITextFieldExtensionTests", dependencies: ["UITextFieldExtension"]),
         
     ],
     swiftLanguageVersions: [.v5]

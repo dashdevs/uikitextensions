@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UITextField' do |ss|
-    ss.source_files = 'UIKitExtensions/UITextField+DDExtensions.{h,m}'
+    ss.source_files = 'Sources/UITextFieldExtension/UITextField+DDExtensions.swift'
   end
 
   s.subspec 'UIApplication' do |ss|
