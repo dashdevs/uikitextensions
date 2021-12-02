@@ -65,6 +65,6 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'PaddedLabel' do |ss|
-    ss.source_files = 'UIKitExtensions/PaddedLabel.swift'
+    ss.source_files = 'Sources/PaddedLabelExtension/PaddedLabel.swift'
   end
 end

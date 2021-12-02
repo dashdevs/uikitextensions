@@ -17,7 +17,7 @@ let package = Package(
         .library( name: "UITextFieldExtension", targets: ["UITextFieldExtension"]),
         .library( name: "UIApplicationExtension", targets: ["UIApplicationExtension"]),
         .library( name: "UIKitSketchExtension", targets: ["UIKitSketchExtension"]),
-        
+        .library( name: "PaddedLabelExtension", targets: ["PaddedLabelExtension"]),
     ],
     dependencies: [
     ],
@@ -32,6 +32,7 @@ let package = Package(
         .target( name: "UITextFieldExtension", dependencies: []),
         .target( name: "UIApplicationExtension", dependencies: []),
         .target( name: "UIKitSketchExtension", dependencies: []),
+        .target( name: "PaddedLabelExtension", dependencies: []),
         
         .testTarget( name: "CGSizeExtensionTests", dependencies: ["CGSizeExtension"]),
         .testTarget( name: "UIColorExtensionTests", dependencies: ["UIColorExtension"]),
@@ -43,7 +44,7 @@ let package = Package(
         .testTarget( name: "UITextFieldExtensionTests", dependencies: ["UITextFieldExtension"]),
         .testTarget( name: "UIApplicationExtensionTests", dependencies: ["UIApplicationExtension"]),
         .testTarget( name: "UIKitSketchExtensionTests", dependencies: ["UIKitSketchExtension"]),
- 
+        .testTarget( name: "PaddedLabelExtensionTests", dependencies: ["PaddedLabelExtension"]),
     ],
     swiftLanguageVersions: [.v5]
 )
