@@ -1,5 +1,5 @@
 //
-//  UIImageExtension.swift
+//  UIImage+DDExtensions.swift
 //  
 //
 //  Created by Anatolij Klimenko on 30.11.2021.

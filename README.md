@@ -32,6 +32,12 @@ pod 'DDUIKitExtensions/UIKit+Sketch'
 pod 'DDUIKitExtensions/PaddedLabel'
 ```
 
+### Swift Package Manager
+
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. It is in early development.
+
+    https://github.com/dashdevs/uikitextensions.git
+
 ## Author
 
 DashDevs hello@dashdevs.com

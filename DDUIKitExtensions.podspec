@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DDUIKitExtensions'
-  s.version          = '0.11.2'
+  s.version          = '0.12.0'
   s.summary          = 'Helpful set of homemade UIKit extensions'
 
   s.homepage         = 'http://dashdevs.com'
@@ -16,8 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { 'dashdevs llc' => 'hello@dashdevs.com' }
   s.source           = { :git => 'https://github.com/dashdevs/uikitextensions.git', :tag => s.version }
 
-  s.ios.deployment_target = '9.0'
-  s.ios.public_header_files = 'UIKitExtensions/*.h'
+  s.ios.deployment_target = '10.0'
 
   s.frameworks = 'UIKit'
   s.swift_version = '4.2'
@@ -45,7 +44,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UIView' do |ss|
-    ss.source_files = 'Sources/UIWiewExtension/UIView+DDExtensions.swift'
+    ss.source_files = 'Sources/UIViewExtension/UIView+DDExtensions.swift'
   end
 
   s.subspec 'UIViewController' do |ss|
