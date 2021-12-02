@@ -57,7 +57,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UIApplication' do |ss|
-    ss.source_files = 'UIKitExtensions/UIApplication+DDExtensions.{h,m}'
+    ss.source_files = 'Sources/UIApplicationExtension/UIApplication+DDExtensions.swift'
   end
 
   s.subspec 'UIKit+Sketch' do |ss|

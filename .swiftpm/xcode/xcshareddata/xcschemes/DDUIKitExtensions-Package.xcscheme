@@ -202,6 +202,20 @@
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "UIApplicationExtension"
+               BuildableName = "UIApplicationExtension"
+               BlueprintName = "UIApplicationExtension"
+               ReferencedContainer = "container:">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -287,6 +301,16 @@
                BlueprintIdentifier = "UITextFieldExtensionTests"
                BuildableName = "UITextFieldExtensionTests"
                BlueprintName = "UITextFieldExtensionTests"
+               ReferencedContainer = "container:">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "UIApplicationExtensionTests"
+               BuildableName = "UIApplicationExtensionTests"
+               BlueprintName = "UIApplicationExtensionTests"
                ReferencedContainer = "container:">
             </BuildableReference>
          </TestableReference>
