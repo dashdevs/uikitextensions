@@ -5,7 +5,7 @@
 //  Copyright © 2019 dashdevs.com. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 /// Storage for Sketch-style shadow parameters.
 public struct SketchShadow {

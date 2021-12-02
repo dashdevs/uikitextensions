@@ -61,7 +61,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UIKit+Sketch' do |ss|
-    ss.source_files = 'UIKitExtensions/CALayer+DDExtensions.swift', 'UIKitExtensions/NSAttributedString+DDExtensions.swift', 'UIKitExtensions/UIScreen+DDExtensions.swift'
+    ss.source_files = 'Sources/UIKitSketchExtension/CALayer+DDExtensions.swift', 'UIKitExtensions/NSAttributedString+DDExtensions.swift', 'UIKitExtensions/UIScreen+DDExtensions.swift'
   end
   
   s.subspec 'PaddedLabel' do |ss|
