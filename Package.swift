@@ -16,6 +16,7 @@ let package = Package(
         .library( name: "UIViewExtension", targets: ["UIViewExtension"]),
         .library( name: "UITextFieldExtension", targets: ["UITextFieldExtension"]),
         .library( name: "UIApplicationExtension", targets: ["UIApplicationExtension"]),
+        .library( name: "UIKitSketchExtension", targets: ["UIKitSketchExtension"]),
         
     ],
     dependencies: [
@@ -30,6 +31,7 @@ let package = Package(
         .target( name: "UIViewExtension", dependencies: []),
         .target( name: "UITextFieldExtension", dependencies: []),
         .target( name: "UIApplicationExtension", dependencies: []),
+        .target( name: "UIKitSketchExtension", dependencies: []),
         
         .testTarget( name: "CGSizeExtensionTests", dependencies: ["CGSizeExtension"]),
         .testTarget( name: "UIColorExtensionTests", dependencies: ["UIColorExtension"]),
@@ -40,7 +42,8 @@ let package = Package(
         .testTarget( name: "UIViewExtensionTests", dependencies: ["UIViewExtension"]),
         .testTarget( name: "UITextFieldExtensionTests", dependencies: ["UITextFieldExtension"]),
         .testTarget( name: "UIApplicationExtensionTests", dependencies: ["UIApplicationExtension"]),
-        
+        .testTarget( name: "UIKitSketchExtensionTests", dependencies: ["UIKitSketchExtension"]),
+ 
     ],
     swiftLanguageVersions: [.v5]
 )

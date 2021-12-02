@@ -13,7 +13,7 @@ public extension UIScreen {
     // MARK: - Default screen dimensions, specified in design (iPhone 6)
     
     private static var designWidth: CGFloat {
-        return 335.0
+        return 375.0
     }
     
     private static var designHeight: CGFloat {

@@ -216,6 +216,20 @@
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "UIKitSketchExtension"
+               BuildableName = "UIKitSketchExtension"
+               BlueprintName = "UIKitSketchExtension"
+               ReferencedContainer = "container:">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -311,6 +325,16 @@
                BlueprintIdentifier = "UIApplicationExtensionTests"
                BuildableName = "UIApplicationExtensionTests"
                BlueprintName = "UIApplicationExtensionTests"
+               ReferencedContainer = "container:">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "UIKitSketchExtensionTests"
+               BuildableName = "UIKitSketchExtensionTests"
+               BlueprintName = "UIKitSketchExtensionTests"
                ReferencedContainer = "container:">
             </BuildableReference>
          </TestableReference>
